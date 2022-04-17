@@ -1,0 +1,75 @@
+body {
+    font-family: Verdana;
+    background-color: #ffffff;
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    color: #000000;
+    padding: 3vh;
+}
+
+time {
+    min-width: 85px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    display: block;
+    color: #ffffff;
+    background-color: rgb(97, 53, 179);
+    padding: 1vh;
+    border-radius: 5px;
+    border: none;
+}
+
+.inline-buttons {
+    display: inline-flex;
+}
+
+.option-button {
+    width: 100%;
+    text-align: left;
+    margin: 5px;
+}
+
+#back-button {
+    margin-right: 8px;
+}
+
+.card {
+    max-width: 80%;
+    margin-top: 15vh;
+    border: none;
+    border-width: 2px;
+    padding: 5vw;
+    border-radius: 30px;
+}
+
+#start-screen {
+    display: inline;
+    text-align: center;
+}
+
+.inline-form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#initials {
+    width: 25%;
+    margin: 8px;
+    padding: 1vh;
+}
+
+.highscore-list {
+    padding-inline-start: 20px;
+}
